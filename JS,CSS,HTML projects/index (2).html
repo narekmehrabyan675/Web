@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="EPHcontainer">
+        <h1><b>ԵՐԵՎԱՆԻ ՊԵՏԱԿԱՆ ՀԱՄԱԼՍԱՐԱՆ</b></h1>
+    </div>
+    <div class="container">
+        <h2><b>ԻՆՖՈՐՄԱՏԻԿԱՅԻ ԵՎ ԿԻՐԱՌԱԿԱՆ ՄԱԹԵՄԱՏԻԿԱՅԻ ՖԱԿՈՒԼՏԵՏ</b></h2>
+        <h2><b>ՏԵՂԵԿԱՏՎԱԿԱՆ ԱՆՎՏԱՆԳՈՒԹՅՈՒՆ</b></h2>
+        <h2>WEB ծրագրավորում<br><br></h2>
+        <p class='available'><b>ԱՌԿԱ ՈՒՍՈՒՑՈՒՄ</b></p>
+        <p class='second'><b>Երկրորդ կուրս<br><br></b></p>
+        <p class='web'><b><i>WEB  ծրագրավորում </i></b> առարկան <span class='green'>առանց եզրափակիչ քննության</span> առարկա է, որն<br> անցնում են երկրորդ 
+            կուրսի Երկրորդ կիսամյակում:
+        </p>
+        <p class="aboutSubject">Առարկան անցկացվում է <u>երկու միջանկյալ քննություններով</u> և գնահատվում<br><span class='red'>20-միավորանոց 
+            համակարգով</span>: Միավորները բաշխվում են հետևյալ կերպ.<br><br></p>
+            <ul>
+                <li>1-ին միջանկյալ քննություն - 4 միավոր</li>
+                <li>2-րդ միջանկյալ քննություն - 5 միավոր</li>
+                <li>ինքնուրույն աշխատանք - 8 միավոր</li>
+                <li>մասնակցություն - 3 միավոր</li>
+            </ul>
+            <div class="container1">
+                <p class='first'><b><span class='red1'>ԱՌԱՋԻՆ</span></b> միջանկյալ<br>
+                     քննության թեման <i>javascript<br> ծրագրավորման լեզուն է:</i></p>
+                <p class='second'><b>ԵՐԿՐՈՐԴ ՄԻՋԱՆԿՅԱԼ<br> ՔՆՆՈՒԹՅԱն ԹԵՄԱՆԵՐՆ ԵՆ.</b></p><br><br>
+                <ol>
+                    <li label for='A'>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                 </ol>
+                 <p class='question'><i>2-րդ միջանկյալ քննության <br>Javascript-ի հարցերը<u> երկուսն <br>են.<br></i></u><br></p>
+                 <p class='select'><b>Ընտրեք հարցի <br>համարը.</b></p>
+                 <p class='list'><i>(բացվող ցուցակ ՝ select)</i></p>
+                 <select id="questionSelect" class="question-select">
+                    <option value="question1">Հարց 1.</option>
+                    <option value="question2">Հարց 2.</option>
+                 </select><br>
+                 <p class='quest'><b>ՀԱՐՑԵՐ</b></p>
+                 <input type="text" class='text' id="inputQuestion" readonly>
+            </div>
+            <div class="container2">
+                <p class='neracel'><b>ՆԵՐԱԾՈՒՄ</b></p>
+                <textarea class='info' id="inputField" placeholder='Այստեղ ներածեք մուտքային տվյալները...'></textarea>
+                <p class='but'><i>(button)</i></p>
+                <button class='solve' onclick="solveProblem()">Լուծել խնդիրը</button>
+            </div>
+            <div class="container3">
+                <p class='answers'><b>ՊԱՏԱՍԽԱՆՆԵՐ</b></p>
+                <p class="quest1"><u><i><b>Հարց 1-ի պատասխան</b></i></u></p>
+               <input type='text' class='input1' id="answer1" readonly>
+               <p class="quest2"><u><i><b>Հարց 2-ի պատասխան</b></i></u></p>
+               <textarea class='input2' id="answer2" readonly></textarea>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

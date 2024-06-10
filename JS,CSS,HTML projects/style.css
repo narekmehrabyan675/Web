@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.EPHcontainer{
+    background-color: rgb(43, 43, 156);
+    height:70px;
+    color:rgb(222, 124, 19);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:1200px;
+    background: url('https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg') no-repeat 0 0 scroll;
+    background-color:#0C0C0C;
+    background-size: 100% 100%;
+}
+h2{
+    color:rgb(222, 124, 19);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.available{
+    color:black;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.second{
+    color:black;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.web{
+    color:black;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 400px;
+}
+.without{
+    color:green;
+}
+.aboutSubject{
+    color:black;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 400px;
+}
+.red{
+    color: red;
+}
+.green{
+    color:green;
+}
+ul{
+    margin-left: 420px;
+    font-size: 18px;
+}
+.container1{
+  width:300px;
+  height:650px;
+  border:3px solid black;
+  margin-left:200px;
+  margin-top:20px;
+  position: relative;
+}
+.red1{
+    color:red;
+}
+.first{
+    text-align: center;
+    margin-top:20px;
+}
+.second{
+    text-align: center;
+    margin-top:20px;
+    color: red;
+}
+ol{
+    margin-left: 120px;
+}
+ol{
+    list-style-type:upper-alpha ;
+}
+.question{
+    text-align: center;
+    margin-top:20px;
+    color:rgb(112, 33, 33)
+}
+.select{
+    margin-left: 10px;
+}
+select{
+    margin-left :180px;
+   position: absolute;
+   bottom: 450px;
+   width:100px;
+  background-color: rgb(170,  170, 234);
+}
+.quest{
+    text-align: center;
+}
+.text{
+    width:240px;
+    height:120px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: rgb(170,  170, 234);
+}
+.container2{
+    width:600px;
+    height:300px;
+    border:3px dashed black;
+    margin-left:600px;
+    margin-top:20px;
+    position: relative;
+    position: absolute;
+    top:470px;
+    background-color: rgb(152, 213, 152);
+}
+.neracel{
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.info{
+    margin-top: 25px;
+    margin-left: 10px;
+    width:570px;
+    height:100px;
+   background-color: rgb(194, 194, 216);
+}
+.but{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+}
+.solve{
+    margin-top:20px;
+    margin-left: 250px;
+    background-color:rgb(194, 194, 216); 
+}
+.container3{
+    width:600px;
+    height:350px;
+    border:3px dashed black;
+    margin-left:600px;
+    margin-top:20px;
+    position: relative;
+    position: absolute;
+    top:770px;
+    background-color: rgb(106, 147, 223);
+}
+.answers{
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+}
+.quest1{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.input1{
+    width:400px;
+    height:60px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: rgb(194, 194, 216); ;
+}
+.quest2{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.input2{
+    width:400px;
+    height:60px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: rgb(194, 194, 216); ;
+}
